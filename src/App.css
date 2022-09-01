@@ -1,8 +1,9 @@
-.App {
+.app {
   text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-.App-logo {
+.app-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -13,9 +14,18 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.block {
+  border: solid 1px rgb(208, 66, 66);
+}
+.h1 {
+  color: rgb(137, 108, 64);
+}
+.p {
+  float: left;
+}
+.app {
   min-height: 100vh;
+  background: linear-gradient(rgb(188, 142, 142), rgb(184, 161, 161));
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,11 +33,26 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
+.container {
+  background: rgb(184, 161, 161);
+  border: 5px solid #001;
+  border-radius: 75px;
+  height: 550px;
+  width: 760px;
+}
+.app-link {
   color: #61dafb;
 }
 
+.prop {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+.prop p {
+  margin-right: 40px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +60,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button {
+  background-color: rgb(209, 122, 205);
+  border: 2px solid;
+  border-radius: 33px;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.footer {
+  margin-left: 150px;
+}
+input {
+  color: rgb(8, 8, 8);
+  font-size: 15px;
+}
+text {
+  background-color: aliceblue;
 }
